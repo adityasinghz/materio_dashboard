@@ -12,7 +12,7 @@ const ApexChart = () => {
       {
         name: "Y-axis Line Chart",
         type: "line",
-        data: [null, null, null, 201, 352, 752, 320, 257, 160],
+        data: [null, null, null, 201, 352, 752, 320, 257, 160,45,12,1,67,90,100,199],
       },
     ],
     options: {
