@@ -55,7 +55,7 @@ function App() {
                   <Grid
                     item
                     xs={12}
-                    md={chart.title === "Marker Chart" ? 12 : 6}
+                    md={chart.title === "Paynter Chart" ? 12 : 6}
                     key={index}
                   >
                     <Card>
