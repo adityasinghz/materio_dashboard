@@ -33,10 +33,7 @@ function useColorMode() {
 function App() {
   const { toggleColorMode, theme } = useColorMode();
   const charts = [
-    { component: <ParetoChart />, title: "Pareto Chart" },
-    { component: <LineChart />, title: "Line Chart" },
     { component: <ApexChart />, title: "Bar Line Chart" },
-    { component: <BarChart />, title: "Bar Chart" },
     { component: <MarkerChart />, title: "Paynter Chart" },
   ];
 
@@ -55,7 +52,7 @@ function App() {
                   <Grid
                     item
                     xs={12}
-                    md={chart.title === "Paynter Chart" ? 12 : 6}
+                    md={12}
                     key={index}
                   >
                     <Card>
