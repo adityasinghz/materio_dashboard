@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: react-app
+    env: static
+    staticPublishPath: build
+    buildCommand: yarn build # or npm run build
+    startCommand: yarn start # or npm start
