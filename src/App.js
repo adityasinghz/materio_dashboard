@@ -37,7 +37,7 @@ function App() {
     { component: <LineChart />, title: "Line Chart" },
     { component: <ApexChart />, title: "Bar Line Chart" },
     { component: <BarChart />, title: "Bar Chart" },
-    { component: <MarkerChart />, title: "Marker Chart" },
+    { component: <MarkerChart />, title: "Paynter Chart" },
   ];
 
   return (
