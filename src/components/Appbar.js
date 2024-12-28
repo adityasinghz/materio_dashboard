@@ -20,7 +20,7 @@ export default function Actionbar({ toggleColorMode }) {
                                 component="div"
                                 sx={{ flexGrow: 1, display: { xs: 'none', sm: 'block' }, color: theme.palette.text.primary }}
                             >
-                                My Charts
+                             {Charts (Prototype)}
                             </Typography>
                             <Button variant="contained" sx={{ ml: 1 }} onClick={toggleColorMode}>
                                 {theme.palette.mode === 'dark' ? "Disable Dark Mode" : "Enable Dark Mode"}
